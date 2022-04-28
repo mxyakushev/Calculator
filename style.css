@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.output {
+    padding-left: 15px;
+    color:black;
+    font-size: 64px;
+    position: absolute;
+    width: 540px;
+    height: 80px;
+    background-color:#FFFFFF;
+    left: 20px;
+    bottom: 520px;
+}
+
+.btn {
+    font-size: 40px;
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    background-color: #C3D898;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+.calc {
+    top: 120px;
+    width: 580px;
+    height: 650px;
+    margin: 0 auto;
+    background-color: #999799;
+    position: relative;
+    border-radius: 10px;
+}
+
+/* BUTTONS */
+
+#equal {
+    bottom: 20px;
+    left: 20px;
+    width: 260px;
+    background-color: #F1BF98;
+}
+
+#clear {
+    bottom: 120px;
+    left: 20px;
+    background-color: #E5625E;
+}
+
+#zero {
+    bottom: 120px;
+    left: 160px;
+}
+
+#dot {
+    bottom: 120px;
+    left: 300px;
+    background-color: #AED9E0;
+}
+
+#division {
+    bottom: 120px;
+    left: 440px;
+    background-color: #945056;
+}
+
+#one {
+    bottom: 220px;
+    left: 20px;
+}
+
+#two {
+    bottom: 220px;
+    left: 160px;
+}
+
+#three {
+    bottom: 220px;
+    left: 300px;
+}
+
+#multiplication {
+    bottom: 220px;
+    left: 440px;
+    background-color: #945056;
+}
+
+#four {
+    bottom: 320px;
+    left: 20px;
+}
+
+#five {
+    bottom: 320px;
+    left: 160px;
+}
+
+#six {
+    bottom: 320px;
+    left: 300px;
+}
+
+#subtraction {
+    bottom: 320px;
+    left: 440px;
+    background-color: #945056;
+}
+
+#seven {
+    bottom: 420px;
+    left: 20px;
+}
+
+#eight {
+    bottom: 420px;
+    left: 160px;
+}
+
+#nine {
+    bottom: 420px;
+    left:300px;
+}
+
+#addition {
+    bottom: 420px;
+    left: 440px;
+    background-color: #945056;
+}
